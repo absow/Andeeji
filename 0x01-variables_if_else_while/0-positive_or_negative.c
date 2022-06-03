@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - main input
- *
+/**
+ * main - main input
  * Return: 0 (Success)
  */
 int main(void)
@@ -13,14 +13,15 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX /	2;
 	if (n > 0)
-       	{
+	{
 		printf("is positive");
 	}
-	else if (n < 0) 
+	else if (n < 0)
 	{
-		printf("is nagative");
+		printf("is negative");
 	}
-	else {
+	else
+	{
 		printf("is zero");
 	}
 	return (0);
