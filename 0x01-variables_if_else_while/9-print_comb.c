@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - display  all possible cominbations,
- * return: Always 0 (Succes)
+ *
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
