@@ -5,7 +5,7 @@
  *
  * Return: 1 if lowercase
  */
-int _islower(int c)
+int int_islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
