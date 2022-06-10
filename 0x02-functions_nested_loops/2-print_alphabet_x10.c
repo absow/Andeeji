@@ -1,10 +1,12 @@
 #include "main.h"
-/**
- * print_alphabet_x10 - print alphabet 10 times
- *
- * Return: void
- */
 
+
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 void print_alpahbet_x10(void)
 {
 	int round = 0;
