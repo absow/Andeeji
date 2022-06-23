@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * is_prime_number - checking if the number is 
- * Return 0 (success);
+ * is_prime_number - prime
+ * @n: integer params
+ * Return: recursion
  */
-
 
 int is_prime_number(int n)
 {
