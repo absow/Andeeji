@@ -12,7 +12,7 @@ int is_prime_number(int n)
 		
 }
 
-void prime(int n)
+int prime(int n)
 {
 	if (n % 2 != 0)
 	{
@@ -25,7 +25,7 @@ void prime(int n)
 	}
 }
 
-void even(int 0)
+int even(int n)
 {
 	if (n % 2 == 0)
 	{
