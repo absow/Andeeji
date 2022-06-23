@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * puts_recursions
+ * _puts_recursions - print a string.
+ * @s: pointer to char
  * Return 0 (success)
  */
 
 void _puts_recursion(char *s)
 {
-	putchar("%c\n", s);
-	return (0);
+	_putchar(*s);
+	_putchar("\n");
 }
