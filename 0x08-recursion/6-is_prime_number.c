@@ -5,35 +5,15 @@
  * Return 0 (success);
  */
 
-int is_prime_number(int n)
-{
-	 prime(n);
-	 event(n);
-		
-}
 
-int prime(int n)
+int is_prime_number(int n)
 {
 	if (n % 2 != 0)
 	{
-		_putchar("%d\n", 1);
-		return;
+		return (1);
 	}
 	else
 	{
-		even();
-	}
-}
-
-int even(int n)
-{
-	if (n % 2 == 0)
-	{
-		_putchar("%d\n", 0);
-		return;
-	}
-	else
-	{
-		prime();
+		return (0)
 	}
 }
