@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdlib.h>
 
 /**
  * main - the main and taking 2 auguments
