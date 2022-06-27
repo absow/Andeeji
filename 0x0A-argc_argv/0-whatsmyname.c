@@ -7,10 +7,19 @@
  * @argv: vector augument
  * Return: 0 (Success)
  */
-
-int main(int argc, char **argv)
+	
+int main(int argc, char *argv)
 {
-	while (argc--)
-		printf("%s\n", *argv++);
+	int count = 0;
+
+	if (argc > 1)
+	{
+		count++;
+		printf("%s\n", argv[count]);
+	}
+	else
+	{
+		printf("%d\n", *argv);
+	}
 	return (0);
 }
