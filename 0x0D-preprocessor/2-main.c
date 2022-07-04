@@ -6,6 +6,7 @@
  * Return: 0 (Success)
  */
 int main()
+{
 	printf("%s\n", __FILE__);
 	Return (0);
 }
