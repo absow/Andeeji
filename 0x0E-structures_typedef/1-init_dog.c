@@ -1,16 +1,25 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 
 /**
- * main - creating main function
- * Return: 0 (Succes)
- * @void: stop it from returning
+ * init_dog - initialize a variable of type struct dog
+ *@d: array
+ *@name: name
+ *@age: age
+ *@owner: owner
+ * Description: This struct is for dog
  */
 
-int main(void)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog my_dog = {"Musa", 5.5, "kiddi"};
-	struct dog *ptr = & my_dog;
-	printf("%s %s %f\n", ptr->owner, ptr->name, ptr->age);
-	return (0);
+	if (d == NULL)
+		return;
+
+	else
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
+
 }
