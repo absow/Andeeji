@@ -1,1 +1,0 @@
-#verdic function
